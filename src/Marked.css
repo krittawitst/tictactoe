@@ -1,0 +1,18 @@
+div.marked {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: #242424;
+  font-size: 50px;
+  user-select: none;
+}
+
+div.marked.null {
+  cursor: pointer;
+}
+
+div.marked.disabled {
+  cursor: not-allowed;
+}
