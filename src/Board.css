@@ -11,3 +11,17 @@ div.board {
   gap: 7px;
   background-color: white;
 }
+
+p.message {
+  height: 30px;
+  line-height: 1;
+  font-size: 30px;
+}
+
+span.separator {
+  margin: 0 12px;
+}
+
+span.reset {
+  cursor: pointer;
+}

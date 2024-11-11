@@ -1,6 +1,6 @@
 import "./Marked.css";
 
-function Marked({ value, setValue, isDisable, setIsUserTurn }) {
+function Marked({ value, setValue, isDisable }) {
   return (
     <div
       className={`marked ${
@@ -9,7 +9,6 @@ function Marked({ value, setValue, isDisable, setIsUserTurn }) {
       onClick={() => {
         if (!isDisable && value === null) {
           setValue("X");
-          setIsUserTurn(false);
         }
       }}
     >
